@@ -63,3 +63,78 @@ img{
     margin-left: 8px;
     margin-top: 10px;
 }
+
+/* CSS */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.newsletter h2 {
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  margin-bottom: 15px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.newsletter button {
+    margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-links .column {
+  flex: 1 1 150px;
+  margin: 10px;
+}
+
+.footer-links h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-links a {
+  display: block;
+  color: #bbb;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+.flex{
+    margin-top: 5px;
+    
+    background-color:  #EFD9CC;
+    display: flex;
+    
+    gap:20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
